@@ -1,0 +1,33 @@
+1.  cd [name]         进入文件夹
+2.  cd ..             进入上一层文件夹
+3.  mkdir [name]      新建文件夹
+4.  touch [na.me]     新建文件
+5.  mv a b            移动文件，并可重命名
+6.  rm [name]         移除文件
+7.  rm -r [name]      移除文件夹
+8.  rm -rf [name]     强制移除文件夹
+9.  vim [name]        编辑器读取文件
+10. i                 vim下 编辑文件
+11. w                 vim下 保存
+12. wq                vim下 保存并退出
+13. q!                vim下 不保存退出
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+14. git init          本地先存在项目文件，git创建本地仓库 ---然后通过指令上传到远程仓库
+15. git clone [url]   克隆远程仓库到本地
+16. git status        查看仓库状态
+17. git diff          查看更改内容
+18. git add xxx       把更改文件添加到缓存
+19. git diff --cached 查看更改并添加到缓存的文件
+20. git commit -m ''  本地仓库完成更改
+21. git commit -am '' add 和 commit同时,但我使用出现未追踪，需要add
+22. git push          提交到远程仓库
+23. git pull          拉取同步远程仓库
+24. git fetch         ~~
+25. git marge         ~~
+26. git reset         在没
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+补充
+27. ls                list 当前文件夹下的文件/文件夹列表
+28. ls -a             所有，包括隐藏
+28. ls -l             详细信息
+29. pwd               print working directory
